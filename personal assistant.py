@@ -248,7 +248,7 @@ def Take_query():
                             h=int(f[1])+2
                             msg=query.replace('send whatsapp message', '')
                             speak('sending'+msg)
-                            pywhatkit.sendwhatmsg("+919690300295",msg,g, h)
+                            pywhatkit.sendwhatmsg(" mobile number",msg,g, h)
                                     
                     if  'turn off'in query:
                         speak("Ok , your pc will log off in 5 seconds make sure you exit from all applications")
